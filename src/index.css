@@ -1,0 +1,66 @@
+@import 'tailwindcss';
+
+@keyframes logo-bounce {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(80vh);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.bounce {
+  animation: logo-bounce infinite 1s linear;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate {
+  animation: logo-spin infinite 1s linear;
+}
+
+.bounce {
+  animation: logo-bounce infinite 1s linear;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate {
+  animation: logo-spin infinite 1s linear;
+}
+
+@keyframes logo-colorChange {
+  0% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: green;
+  }
+  75% {
+    background-color: blue;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
+
+body {
+  animation: logo-colorChange infinite 5ms linear;
+}
