@@ -1,10 +1,12 @@
 import Header from '../src/components/header.jsx'
-
-function App() {
-
+import Content from '../src/components/content.jsx'
+import ProductList from './components/productList.jsx'
+function App () {
   return (
     <>
-      <Header name="Angel Guard"/>
+      <Header name='Angel Guard' />
+      <Content />
+      <ProductList />
     </>
   )
 }
